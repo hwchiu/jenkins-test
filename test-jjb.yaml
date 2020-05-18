@@ -33,6 +33,9 @@
           name: 'hwchiu-2'
           build-node: 'ubuntu:18.04'
       - 'hwchiu-test':
+          name: 'hwchiu-3'
+          build-node: 'ubuntu:20.04'
+      - 'hwchiu-test':
           name: 'hwchiu-jjb'
           build-node: 'ubuntu:18.04'
           jenkins-file: Jenkinsfile.jjb
